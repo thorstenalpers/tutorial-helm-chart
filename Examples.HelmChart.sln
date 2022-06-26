@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples.HelmChart", "src\Examples.HelmChart.csproj", "{B068475A-CC8C-4464-A004-2048378C1F8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{281A3B47-7B27-4244-BA8B-6ED603047A24}"
+	ProjectSection(SolutionItems) = preProject
+		src\.editorconfig = src\.editorconfig
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BAA3F8A0-91AF-458D-8987-B0A068C4C02F}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\01-dotnet-create-app.cmd = scripts\01-dotnet-create-app.cmd
+		scripts\02-docker-build.cmd = scripts\02-docker-build.cmd
+		scripts\03-docker-list.cmd = scripts\03-docker-list.cmd
+		scripts\04-docker-run.cmd = scripts\04-docker-run.cmd
+		scripts\05-docker-login.cmd = scripts\05-docker-login.cmd
+		scripts\06-docker-push.cmd = scripts\06-docker-push.cmd
+		scripts\07-helm-create-chart.cmd = scripts\07-helm-create-chart.cmd
+		scripts\08-helm-install-chart.cmd = scripts\08-helm-install-chart.cmd
+		scripts\09-helm-test-chart.cmd = scripts\09-helm-test-chart.cmd
+		scripts\10-helm-show-chart.cmd = scripts\10-helm-show-chart.cmd
+		scripts\11-expose-port.cmd = scripts\11-expose-port.cmd
+		scripts\12-helm-pack-chart.cmd = scripts\12-helm-pack-chart.cmd
+		scripts\13-helm-uninstall-chart.cmd = scripts\13-helm-uninstall-chart.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Debug|x64.Build.0 = Debug|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Debug|x86.Build.0 = Debug|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Release|x64.ActiveCfg = Release|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Release|x64.Build.0 = Release|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{B068475A-CC8C-4464-A004-2048378C1F8B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAA3F8A0-91AF-458D-8987-B0A068C4C02F} = {281A3B47-7B27-4244-BA8B-6ED603047A24}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39113167-C560-44F8-A0CA-4F75332411F0}
+	EndGlobalSection
+EndGlobal

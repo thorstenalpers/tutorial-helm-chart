@@ -1,0 +1,4 @@
+apiVersion: v2								# v1 = Helm 1-2, v2 = Helm 3
+name: my-example
+description: A simple example application	# optional
+version: 1.0.0
