@@ -1,0 +1,3 @@
+helm delete my-example & helm install my-example ../charts/my-example
+
+set /p DUMMY=Hit ENTER to continue...
